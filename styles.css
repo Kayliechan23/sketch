@@ -1,0 +1,39 @@
+*, *::before, *::after {
+    box-sizing: border-box; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.heading-section, .squares-section {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+
+.heading-section {
+    height: 100px;
+    justify-content: space-evenly;
+}
+
+.squares-container {
+    width: 402px;
+    height: 402px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid  rgb(7, 53, 96);
+    border-radius: 5px; 
+    justify-content: flex-start;
+    overflow-y: hidden;
+}
+
+button {
+    background-color: rgb(210, 100, 100);
+    border: 1px solid rgb(33, 26, 26);
+    padding: 5px;
+    border-radius: 5px;
+}
